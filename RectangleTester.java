@@ -7,6 +7,13 @@ public class RectangleTester
          * has a width and a height. But the specific instances
          * have their own dimensions.
          */
+        Rectangle r1 = new Rectangle(10,2);
+        System.out.println(r1);
+        r1.printArea();
+        Rectangle r2 = new Rectangle(5,15);
+        System.out.println(r2);
+        r2.printArea();
+        
         
         //Make a rectangle called r1 with a width of 10 and height of 2 then print it
         
